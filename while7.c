@@ -2,17 +2,17 @@
 #include <stdio.h>
 void main()
 {
-    int count = 6, flash = 6;
+    int count = 0, flash = 6;
 
-    while (flash <= 6)
+    while (flash > 0)
     {
-        while (flash <= count)
+        while (count <= flash)
         {
             printf("*");
-            count = count - 1;
+            count = count + 1;
         }
         printf("\n");
-        count = 6;
+        count = 0;
         flash = flash - 1;
     }
 

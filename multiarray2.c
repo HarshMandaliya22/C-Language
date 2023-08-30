@@ -8,7 +8,7 @@ void main()
 
     for (flash = 0; flash < 5; flash++)
     {
-        printf("\nEnter your name %d ", flash + 1);
+        printf("\nEnter your name %d : ", flash + 1);
 
         for (count = 0; count < 20; count++)
         {
@@ -24,7 +24,6 @@ void main()
     for (flash = 0 ; flash < 5 ; flash++)
     {
         printf("\nYour Name %d is : %c",flash + 1,name[flash][count]);
-        count = 0;
         for (count = 0; count < 20; count++)
         {
             printf("%c", name[flash][count]);

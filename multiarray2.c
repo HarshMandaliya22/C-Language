@@ -23,7 +23,7 @@ void main()
     count=0;
     for (flash = 0 ; flash < 5 ; flash++)
     {
-        printf("\nYour Name %d is : %c",flash + 1,name[flash][count]);
+        printf("\nYour Name %d is : ",flash + 1);
         for (count = 0; count < 20; count++)
         {
             printf("%c", name[flash][count]);

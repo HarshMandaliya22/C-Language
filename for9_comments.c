@@ -1,9 +1,9 @@
 // write a program to print hollow full pyramid of "*"
-//      *
-//     * *
-//    *   *
-//   *     *
-//  *       *
+//     *
+//    * *
+//   *   *
+//  *     *
+// *       *
 //* * * * * *
 #include <stdio.h>
 void main()
